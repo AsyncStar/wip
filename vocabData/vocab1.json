@@ -1,0 +1,298 @@
+{
+  "jibunMyself": {
+    "main": "自分",
+    "reading": "じぶん", "meaning": "Oneself; myself",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["person"],
+    "notes": []
+  },
+  "otokoNoHitoMan": {
+    "main": "男の人",
+    "reading": "おとこのひと", "meaning": "Man",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": ["人Person"],
+    "semanticTags": ["person"],
+    "notes": []
+  },
+  "onnaNoHitoWoman": {
+    "main": "女の人",
+    "reading": "おんなのひと", "meaning": "Woman",
+    "lesson": null,
+    "category": "noun",
+    "semanticTags": ["person"],
+    "kanjiTags": ["女Woman","人Person"],
+    "notes": []
+  },
+  "jiyakaimoPotatos": {
+    "main": "じやかいも",
+    "reading": "Potatoes",
+    "meaning": "",
+    "lesson": 8,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": [ "vegetables"],
+    "notes": []
+  },
+  "tamanegiOnions": {
+    "main": "たまねぎ",
+    "reading": "",
+    "meaning": "Onion",
+    "lesson": 8,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["vegetables"],
+    "notes": []
+  },
+  "ninjinCarrots": {
+    "main": "人人",
+    "reading": "にんじん",
+    "meaning": "Carrots",
+    "lesson": 8,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["vegetables"],
+    "notes": []
+  },
+  "tomatoTomato": {
+    "main": "トマト",
+    "reading": "",
+    "meaning": "Tomato",
+    "lesson": 8,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["fruits", "vegetables"],
+    "notes": []
+  },
+  "budouGrape": {
+    "main": "ぶどう",
+    "reading": "",
+    "meaning": "Grape",
+    "lesson": 8,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["fruits", "vegetables"],
+    "notes": []
+  },
+  "momoPeach": {
+    "main": "もも",
+    "reading": "",
+    "meaning": "Peach",
+    "lesson": 8,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": [ "fruits", "vegetables"],
+    "notes": []
+  },
+  "mikanMandarinOrange": {
+    "main": "みかん",
+    "reading": "",
+    "meaning": "MandarinOrange",
+    "lesson": 14,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": [ "fruits"],
+    "notes": [
+    ]
+  },
+  "abokadoAvocado": {
+    "main": "アボかド",
+    "reading": "",
+    "meaning": "Avacado",
+    "lesson": 8,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": [ "fruits"],
+    "notes": []
+  },
+  "ichigoStrawberry": {
+    "main": "いちご",
+    "reading": "",
+    "meaning": "Strawberry",
+    "lesson": 8,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["fruits"],
+    "notes": []
+  },
+  "kudamonoFruit": {
+    "main": "くだ物",
+    "reading": "くだもの",
+    "meaning": "Fruit",
+    "lesson": 5,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": [ "fruits"],
+    "notes": []
+  },
+  "suikaWatermelon": {
+    "main": "すいか",
+    "reading": "",
+    "meaning": "Watermelon",
+    "lesson": 8,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["fruits" ],
+    "notes": []
+  },
+  "ringoApple": {
+    "main": "りんご",
+    "reading": "",
+    "meaning": "Apple",
+    "lesson": 8,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["fruits"],
+    "notes": []
+  },
+  "yasaiVegetable": {
+    "main": "やさい",
+    "reading": "",
+    "meaning": "Vegetable",
+    "lesson": 2,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["vegetables"],
+    "notes": []
+  },
+  "kyuuriCucumber": {
+    "main": "きゅうり",
+    "reading": "",
+    "meaning": "Cucumber",
+    "lesson": 8,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": [ "vegetables"],
+    "notes": []
+  },
+  "kyabegiCabbage": {
+    "main": "きゃべぎ",
+    "reading": "",
+    "meaning": "Cabbage",
+    "lesson": 8,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["vegetables"],
+    "notes": []
+  },
+  "nasuEggplant": {
+    "main": "なす",
+    "reading": "",
+    "meaning": "Eggplant",
+    "lesson": 8,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["vegetables"],
+    "notes": []
+  },
+  "okashiSweets": {
+    "main": "おかし",
+    "reading": "",
+    "meaning": "Sweets",
+    "lesson": 11,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["sweets", "snacks"],
+    "notes": []
+  },
+  "kekiCake": {
+    "main": "ケーキ",
+    "reading": "",
+    "meaning": "Cake",
+    "lesson": 11,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["sweets", "snacks"],
+    "notes": []
+  },
+  "chokoreetoChocolate": {
+    "main": "チョコレート",
+    "reading": "",
+    "meaning": "Chocolate",
+    "lesson": 14,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": [ "sweets", "snacks"],
+    "notes": []
+  },
+  "mochiRiceCake": {
+    "main": "もち",
+    "reading": "",
+    "meaning": "Rice cake",
+    "lesson": 10,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["sweets", "snacks"],
+    "notes": []
+  },
+  "manjuuSweetBun": {
+    "main": "まんじゅう",
+    "reading": "",
+    "meaning": "Sweet bun",
+    "lesson": 4,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["sweets", "snacks"],
+    "notes": []
+  },
+  "aisuKuriimuIceCream": {
+    "main": "アイスクリーム",
+    "reading": "",
+    "meaning": "Ice cream",
+    "lesson": 3,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["sweets", "snacks"],
+    "notes": []
+  },
+  "kashiSnackSweets": {
+    "main": "菓子",
+    "reading": "かし",
+    "meaning": "Snack; sweets",
+    "lesson": 11,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["sweets", "snacks"],
+    "notes": []
+  },
+  "piinatsuPeanut": {
+    "main": "ピーナツ",
+    "reading": "",
+    "meaning": "peanut",
+    "lesson": 8,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["sweets", "snacks"],
+    "notes": []
+  },
+  "kuruToCome": {
+    "main": "来る",
+    "reading": "くる",
+    "meaning": "To come",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["function"],
+    "notes":  []
+  },
+  "suruToDo": {
+    "main": "する", "reading": "",
+    "meaning": "To do",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["function"],
+    "notes":  []
+  },
+  "yaruToDo": {
+    "main": "やる", "reading": "",
+    "meaning": "To do",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["function"],
+    "notes":  ["Rougher than する"]
+  }
+}
