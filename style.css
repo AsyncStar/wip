@@ -1,0 +1,188 @@
+* {
+
+    box-sizing: border-box;
+
+    --main-font-family: Zen Kaku Gothic New, sans-serif;
+    --jpn-font-size: 18px;
+
+    --quick-access-font-size: 0.711em;
+    --conjugator-result-font-size: 40px;
+    --inspector-font-size: 1.5em;
+    --reading-font-size: 0.7em;
+    --meaning-font-size: 0.95em;
+
+
+    --light-bg-color: #f3f0e8;
+    --light-neutral-color: #fffbf2;
+    --dark-accent-color: #293921;
+
+    --primary-color: #b9c1ab;;
+    --secondary-color: #496a49;
+
+}
+
+/*  ============= TILE STYLING ============= */
+
+.tile, .kanji-tile {
+    display: inline-block;
+    border: 0.14em solid #889f7c;
+    border-radius: 0.3em;
+    margin: 0.2em;
+    text-wrap: nowrap;
+    font-size: 16px;
+    height: fit-content;
+    font-weight: 430;
+    background-color: #fffefa;
+}
+.kanji-tile {
+    padding: 0.06em;
+    font-size: 16px;
+    height: fit-content;
+
+}
+
+.highlight {
+    color: #fd3adb;
+}
+
+
+.dual-wrapper {
+    display: flex;
+
+}
+
+
+/*  ============= MODAL STYLING ============= */
+#tile-modal, #grammar-modal {
+    z-index: 100;
+    border-radius: 0.5em;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: none;
+    width: 70%;
+    height: 50%;
+}
+
+#grammar-modal {
+    height: 70%;
+    width: 80%;
+}
+#tile-modal::backdrop, #grammar-modal::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#tile-modal:focus, #grammar-modal:focus, #grammar-modal:focus {
+    outline: 10px solid #b0ba9d;
+
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    font-size: 20px;
+}
+
+.modal-header {
+    font-size: 40px;
+
+    @media (max-width: 600px) {
+        font-size: 40px;
+        text-wrap: nowrap;
+    }
+}
+
+#grammar-modal {
+    overflow-y: scroll;
+}
+
+#grammar-modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    overflow: scroll;
+
+    /* row start / col start / row end / col end*/
+
+    .top-wrapper {
+        display: flex;
+        font-size: 25px;
+        border-bottom: 3px solid rgba(0, 0, 0, 0.06);
+        gap: 0.3em;
+    }
+
+    .bottom-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 0.7em;
+        font-size: 16px;
+    }
+
+
+    .modal-title {
+        flex: 4;
+    }
+
+    .modal-lesson {
+        flex: 1;
+    }
+
+    .modal-notes {
+        font-size: 14px;
+    }
+
+    .modal-follows {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+
+        .inline {
+            display: inline-block;
+            text-wrap: nowrap;
+
+        }
+
+        #followsWrapper {
+            gap: 0.2em;
+        }
+
+    }
+
+
+}
+
+
+.format-styling {
+    color: deeppink;
+    font-weight: bold;
+}
+
+.innerHeader {
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+}
+
+
+.main-vocab {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+
+    .tags {
+        border: 1px solid red;
+        height: 30%;
+    }
+
+    .destination {
+        border: 1px solid blue;
+        height: 70%;
+    }
+}
+
+.dropdown-content {
+
+}

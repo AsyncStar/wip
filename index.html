@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="tile.js" type="module"></script>
+</head>
+<body>
+
+<div data-set="page-mode">
+    <div class="tags">
+        <label>
+            <input type="radio" name="page-mode" value="semantic-only" checked="checked"/>
+            Semantic only</label>
+        <label>
+            <input type="radio" name="page-mode" value="kanji-only" />
+            Kanji only</label>
+        <label>
+            <input type="radio" name="page-mode" value="combined"/>
+            Combined</label>
+    </div>
+</div>
+
+<div class="container mini-vocab" data-set="kanji">
+    <div class="tags">
+         <span class="">
+               <label>
+                  <input type="checkbox" value="person"/>
+              女</label>
+          </span>
+
+    </div>
+</div>
+
+<div class="dual-wrapper">
+  <div class="container main-vocab" data-set="noun">
+      <div class="tags">
+          <span class="has-dropdown" >
+              <label>
+                  <input type="radio" name="noun-parent-tag" value="food" checked="checked">
+              Food</label>
+          </span>
+          <span class="dropdown-content" data-parent="food">
+                   <label>
+                  <input type="checkbox" value="fruits" checked="checked"/>
+              Fruits</label>
+                   <label>
+                  <input type="checkbox" value="vegetables"/>
+              Vegetables</label>
+                   <label>
+                  <input type="checkbox" value="sweets"/>
+                       Sweets
+              </label>
+          </span>
+          <span class="">
+               <label>
+                  <input type="radio" name="noun-parent-tag" value="person" />
+              Person</label>
+          </span>
+          <span class="">
+               <label>
+                  <input type="radio" name="noun-parent-tag" value="media" />
+              Media</label>
+          </span>
+          <span class="">
+               <label>
+                  <input type="radio" name="noun-parent-tag" value="technology" />
+              Technology</label>
+          </span>
+          <span class="">
+               <label>
+                  <input type="radio" name="noun-parent-tag" value="clothing" />
+              Clothing</label>
+          </span>
+          <span class="">
+               <label>
+                  <input type="radio" name="noun-parent-tag" value="furniture" />
+              Furniture</label>
+          </span>
+          <span class="">
+               <label>
+                  <input type="radio" name="noun-parent-tag" value="places" />
+              Places</label>
+          </span>
+          <span class="">
+               <label>
+                  <input type="radio" name="noun-parent-tag" value="concepts" />
+              Concepts</label>
+          </span>
+          <span class="">
+               <label>
+                  <input type="radio" name="noun-parent-tag" value="activities" />
+              Activities</label>
+          </span>
+      </div>
+      <div class="destination"></div>
+  </div>
+  <div class="main-vocab" data-set="verb">
+      <div class="tags"></div>
+      <div class="destination"></div>
+  </div>
+</div>
+<div data-set="">
+  <div data-set="adjective"></div>
+  <div data-set="adverb"></div>
+</div>
+
+<dialog id="tile-modal">
+    <div class="modal-content">
+        <div class="modal-header"></div>
+        <div class="modal-reading"></div>
+        <div class="modal-meaning"></div>
+        <div class="modal-notes"></div>
+    </div>
+</dialog>
+
+</body>
+</html>
