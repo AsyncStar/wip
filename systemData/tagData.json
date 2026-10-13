@@ -5,9 +5,49 @@
       "vegetables": {},
       "sweets": {}
     },
-    "person": {}
+    "person": {},
+    "animal": {},
+    "commonPlaceNames": {
+      "institutionsEstablishments": {},
+      "infrastructureTransitPlaces": {},
+      "subPlaces": {},
+      "publicAmenitiesPlaces": {},
+      "geopoliticalPlaces": {},
+      "naturalPlaces": {}
+    },
+    "properPlaceNames": {
+      "properPlaceName": {},
+      "country": {},
+      "properCities": {}
+    },
+    "body": {},
+    "weather": {
+    },
+    "clothingAccessories": {},
+    "householdFurniture": {},
+    "abstract": {},
+    "transportation": {}
   },
   "verb": {
-    "function": {}
+    "function": {},
+    "communication": {},
+    "movement": {},
+    "feelingVerb": {},
+    "dailyLife": {
+      "routine": {},
+      "gettingDressed" : {},
+      "cleaningVerbs": {},
+      "healthVerbs": {}
+    },
+    "conflictVerbs": {},
+    "stateOfBehavior": {},
+    "activities:": {},
+    "interactionVerbs": {},
+    "abstractVerbs": {}
+  },
+  "adjective": {
+    "feelingsOpinions": {},
+    "description": {},
+    "properties": {}
   }
 }

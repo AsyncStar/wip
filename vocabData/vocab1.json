@@ -267,32 +267,1195 @@
     "semanticTags": ["sweets", "snacks"],
     "notes": []
   },
-  "kuruToCome": {
-    "main": "来る",
-    "reading": "くる",
-    "meaning": "To come",
+  "umi": {
+    "main": "海",
+    "reading": "うみ",
+    "meaning": "Sea",
     "lesson": null,
-    "category": "verb",
+    "category": "noun",
     "kanjiTags": [],
-    "semanticTags": ["function"],
-    "notes":  []
+    "semanticTags": ["naturalPlaces"],
+    "notes": []
   },
-  "suruToDo": {
-    "main": "する", "reading": "",
-    "meaning": "To do",
+  "yamaMountain": {
+    "main": "山",
+    "reading": "やま",
+    "meaning": "Mountain",
     "lesson": null,
-    "category": "verb",
+    "category": "noun",
     "kanjiTags": [],
-    "semanticTags": ["function"],
-    "notes":  []
+    "semanticTags": ["naturalPlaces"],
+    "notes": []
   },
-  "yaruToDo": {
-    "main": "やる", "reading": "",
-    "meaning": "To do",
+  "machiTown": {
+    "main": "待ち",
+    "reading": "まち",
+    "meaning": "Town; city",
     "lesson": null,
-    "category": "verb",
+    "category": "noun",
     "kanjiTags": [],
-    "semanticTags": ["function"],
-    "notes":  ["Rougher than する"]
+    "semanticTags": ["geographicalPlaces"],
+    "notes": []
+  },
+  "kinjouNeighborhood": {
+    "main": "きんじょう",
+    "reading": "",
+    "meaning": "Neighborhood",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["geographicalPlaces"],
+    "notes": []
+  },
+  "kouenPark": {
+    "main": "こうえん",
+    "reading": "",
+    "meaning": "Park",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["publicAmenitiesPlaces"],
+    "notes": []
+  },
+  "kyanpaCamp": {
+    "main": "キャンパ",
+    "reading": "",
+    "meaning": "Camp",
+    "lesson": 11,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["publicAmenitiesPlaces"],
+    "notes": []
+  },
+  "shokudouCafeteria": {
+    "main": "しょくどう",
+    "reading": "",
+    "meaning": "Cafeteria",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["subPlaces"],
+    "notes": []
+  },
+  "toireToilet": {
+    "main": "トイレ",
+    "reading": "",
+    "meaning": "Toilet; restroom",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["subPlaces"],
+    "notes": []
+  },
+  "miciRoad": {
+    "main": "道",
+    "reading": "みち",
+    "meaning": "Way; road",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["infrastructureTransitPlaces"],
+    "notes": []
+  },
+  "busuteiBusStop": {
+    "main": "ブスてい",
+    "reading": "",
+    "meaning": "Bus stop",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["infrastructureTransitPlaces"],
+    "notes": []
+  },
+  "toshokanLibrary": {
+    "main": "としょかん",
+    "reading": "",
+    "meaning": "Library",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []},
+  "byouinHospital": {
+    "main": "病院",
+    "reading": "びょういん",
+    "meaning": "Hospital",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+  "ginkouBank": {
+    "main": "ぎんきょう",
+    "reading": "",
+    "meaning": "Bank",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+  "hoteruHotel": {
+    "main": "ホテル",
+    "reading": "",
+    "meaning": "Hotel",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+  "honyaBookstore": {
+    "main": "本や",
+    "reading": "ほんや",
+    "meaning": "Bookstore",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+  "konbiniConvienceStore": {
+    "main": "コンビニ",
+    "reading": "",
+    "meaning": "Convenience store",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+  "yuubinkyoukuPostOffice": {
+    "main": "ゆうびんきょうく",
+    "reading": "",
+    "meaning": "Post office",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+  "depootoDepartmentStore": {
+    "main": "デポート",
+    "reading": "",
+    "meaning": "Department store",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+  "resutoranResturant": {
+    "main": "レストラン",
+    "reading": "",
+    "meaning": "Restaurant",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+  "miseShop": {
+    "main": "店",
+    "reading": "みせ",
+    "meaning": "Shop",
+    "lesson": 14,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+  "shotenBookstore": {
+    "main": "書店",
+    "reading": "しょてん",
+    "meaning": "Bookstore",
+    "lesson": 14,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+  "baitenStallKiosk": {
+    "main": "売店",
+    "reading": "ばいてん",
+    "meaning": "Stall; Kiosk",
+    "lesson": 14,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+  "bijutsukanArtMuseum": {
+    "main": "びじゅつかん",
+    "reading": "",
+    "meaning": "Art museum",
+    "lesson": 11,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+  "jukuCramSchool": {
+    "main": "じゅく",
+    "reading": "",
+    "meaning": "Cram school",
+    "lesson": 7,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+  "eigokuUK": {
+    "main": "英語口",
+    "reading": "えいごく",
+    "meaning": "UK",
+    "lesson": 14,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["country"],
+    "notes": []
+  },
+  "firipinPhilippines": {
+    "main": "フィリピン",
+    "reading": "",
+    "meaning": "Philippines",
+    "lesson": 1,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["country"],
+    "notes": []
+  },
+  "chuugokuChina": {
+    "main": "中国",
+    "reading": "ちゅうごく",
+    "meaning": "China",
+    "lesson": 1,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["country"],
+    "notes": []
+  },
+  "supainSpain": {
+    "main": "スパいん",
+    "reading": "",
+    "meaning": "Spain",
+    "lesson": 8,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["country"],
+    "notes": []
+  },
+  "kankokuKorea": {
+    "main": "かん国",
+    "reading": "",
+    "meaning": "Korea",
+    "lesson": 1,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["country"],
+    "notes": []
+  },
+  "egiputoEgypt": {
+    "main": "エギプト",
+    "reading": "",
+    "meaning": "Egypt",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["country"],
+    "notes": []
+  },
+  "aasutoriaAustralia": {
+    "main": "アースとラリア",
+    "reading": "",
+    "meaning": "Australia",
+    "lesson": 1,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["country"],
+    "notes": []
+  },
+  "indoIndia": {
+    "main": "インド",
+    "reading": "",
+    "meaning": "India",
+    "lesson": 1,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["country"],
+    "notes": []
+  },
+  "itariaItaly": {
+    "main": "イタリア",
+    "reading": "",
+    "meaning": "Italy",
+    "lesson": 6,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["country"],
+    "notes": []
+  },
+  "amerikaAmericaUSA": {
+    "main": "あめりか",
+    "reading": "",
+    "meaning": "America; USA",
+    "lesson": 1,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["country"],
+    "notes": []
+  },
+  "igirisuBritain": {
+    "main": "イギリス",
+    "reading": "",
+    "meaning": "Britian",
+    "lesson": 1,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["country"],
+    "notes": []
+  },
+  "mekishikoMexico": {
+    "main": "メキシコ",
+    "reading": "",
+    "meaning": "Mexico",
+    "lesson": 5,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["country"],
+    "notes": []
+  },
+  "tenki": {
+    "main": "天気",
+    "reading": "てんき",
+    "meaning": "Weather",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["weather"],
+    "notes": []
+  },
+  "tenkiyomau": {
+    "main": "天気よまう",
+    "reading": "てんきようまう",
+    "meaning": "Weather forecast",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["weather"],
+    "notes": []
+  },
+  "hare": {
+    "main": "はれ",
+    "reading": "",
+    "meaning": "Sunny weather",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["weather"],
+    "notes": []
+  },
+  "ame": {
+    "main": "雨",
+    "reading": "あめ",
+    "meaning": "Rain",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["weather"],
+    "notes": []
+  },
+  "tsumori": {
+    "main": "つもり",
+    "reading": "",
+    "meaning": "Cloudy weather",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["weather"],
+    "notes": []
+  },
+  "yuki": {
+    "main": "雪",
+    "reading": "ゆき",
+    "meaning": "Snow",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["weather"],
+    "notes": []
+  },
+  "kion": {
+    "main": "きおん",
+    "reading": "",
+    "meaning": "Temperature",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["weather"],
+    "notes": []
+  },
+  "kisetsu": {
+    "main": "きせつ",
+    "reading": "",
+    "meaning": "Season",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["weather"],
+    "notes": []
+  },
+  "natsu": {
+    "main": "なつ",
+    "reading": "",
+    "meaning": "Summer",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["weather"],
+    "notes": []
+  },
+  "fuyu": {
+    "main": "冬",
+    "reading": "ふゆ",
+    "meaning": "Winter",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["weather"],
+    "notes": []
+  },
+  "haru": {
+    "main": "はる",
+    "reading": "",
+    "meaning": "Spring",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["weather"],
+    "notes": []
+  },
+  "aki": {
+    "main": "あき",
+    "reading": "",
+    "meaning": "Fall",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["weather"],
+    "notes": []
+  },
+  "kitteStamp": {
+    "main": "切手",
+    "reading": "きって",
+    "meaning": "Stamp",
+    "lesson": 14,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["stationaryPaperwork"],
+    "notes": []
+  },
+  "tesutoTest": {
+    "main": "テスト",
+    "reading": "",
+    "meaning": "Test",
+    "lesson": 5,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["stationaryPaperwork"],
+    "notes": []
+  },
+  "shukudaiHomework": {
+    "main": "しゅくだい",
+    "reading": "",
+    "meaning": "Homework",
+    "lesson": 5,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["stationaryPaperwork"],
+    "notes": []
+  },
+  "shikenExam": {
+    "main": "しけん",
+    "reading": "",
+    "meaning": "Exam",
+    "lesson": 9,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["stationaryPaperwork"],
+    "notes": []
+  },
+  "jishoDictionary": {
+    "main": "じしょ",
+    "reading": "",
+    "meaning": "Dictionary",
+    "lesson": 12,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["stationaryPaperwork"],
+    "notes": []
+  },
+  "kyoukashoTextbook": {
+    "main": "きょうかしょ",
+    "reading": "",
+    "meaning": "Textbook",
+    "lesson": 6,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["stationaryPaperwork"],
+    "notes": []
+  },
+  "kokubanBlackboard": {
+    "main": "こくばん",
+    "reading": "",
+    "meaning": "Blackboard",
+    "lesson": 12,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["stationaryPaperwork"],
+    "notes": []
+  },
+  "zasshiMagazine": {
+    "main": "ざっし",
+    "reading": "",
+    "meaning": "Magazine",
+    "lesson": 3,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["stationaryPaperwork"],
+    "notes": []
+  },
+  "shashinPicturePhotograph": {
+    "main": "しゃしん",
+    "reading": "",
+    "meaning": "Picture; photograph",
+    "lesson": 4,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["stationaryPaperwork"],
+    "notes": []
+  },
+  "ankaatoQuestionnaire": {
+    "main": "アンカート",
+    "reading": "",
+    "meaning": "Questionaire",
+    "lesson": 8,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["stationaryPaperwork"],
+    "notes": []
+  },
+  "sumaho": {
+    "main": "スマホ",
+    "reading": "",
+    "meaning": "Smartphone; mobile",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["technology"],
+    "notes": []
+  },
+  "pancon": {
+    "main": "パンコン",
+    "reading": "",
+    "meaning": "Personal computer",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["technology"],
+    "notes": []
+  },
+  "terebi": {
+    "main": "テレビ",
+    "reading": "",
+    "meaning": "TV",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["technology"],
+    "notes": []
+  },
+  "tokei": {
+    "main": "とけい",
+    "reading": "",
+    "meaning": "Watch; clock",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["technology"],
+    "notes": []
+  },
+  "aikon": {
+    "main": "アイコン",
+    "reading": "",
+    "meaning": "Air conditioner",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["technology"],
+    "notes": []
+  },
+  "denki": {
+    "main": "電気",
+    "reading": "でんき",
+    "meaning": "Light; electricity",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["technology"],
+    "notes": []
+  },
+  "meru": {
+    "main": "メル",
+    "reading": "",
+    "meaning": "Email",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["technology"],
+    "notes": []
+  },
+  "denkidaiElectricFee": {
+    "main": "電気代",
+    "reading": "でんきだい",
+    "meaning": "Electric fee",
+    "lesson": 14,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["technology"],
+    "notes": []
+  },
+  "fuku": {
+    "main": "ふく",
+    "reading": "",
+    "meaning": "Clothing",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["clothingAccessories"],
+    "notes": []
+  },
+  "heya": {
+    "main": "へや",
+    "reading": "",
+    "meaning": "Room",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["householdFurniture"],
+    "notes": []
+  },
+  "ieUchi": {
+    "main": "家",
+    "reading": "いえ・うち",
+    "meaning": "Home",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["householdFurniture"],
+    "notes": []
+  },
+  "shawaa": {
+    "main": "シャワー",
+    "reading": "",
+    "meaning": "Shower",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["householdFurniture"],
+    "notes": []
+  },
+  "mado": {
+    "main": "まど",
+    "reading": "",
+    "meaning": "Window",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["householdFurniture"],
+    "notes": []
+  },
+  "isu": {
+    "main": "いす",
+    "reading": "",
+    "meaning": "Chair",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["householdFurniture"],
+    "notes": []
+  },
+  "tsukue": {
+    "main": "つくえ",
+    "reading": "",
+    "meaning": "Desk",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["householdFurniture"],
+    "notes": []
+  },
+  "furuBath": {
+    "main": "ふる",
+    "reading": "",
+    "meaning": "Bath",
+    "lesson": 8,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["householdFurniture"],
+    "notes": []
+  },
+  "tshatsu": {
+    "main": "Tシャツ",
+    "reading": "",
+    "meaning": "T-shirt",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["clothingAccessories"],
+    "notes": []
+  },
+  "shatsu": {
+    "main": "シャツ",
+    "reading": "",
+    "meaning": "Shirt",
+    "lesson": 13,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["clothingAccessories"],
+    "notes": []
+  },
+  "jiinzu": {
+    "main": "ジーンズ",
+    "reading": "",
+    "meaning": "Jeans",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["clothingAccessories"],
+    "notes": []
+  },
+  "saifu": {
+    "main": "さいふ",
+    "reading": "",
+    "meaning": "Wallet",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["clothingAccessories"],
+    "notes": []
+  },
+  "kutsu": {
+    "main": "くつ",
+    "reading": "",
+    "meaning": "Shoes",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["clothingAccessories"],
+    "notes": []
+  },
+  "kaban": {
+    "main": "かばん",
+    "reading": "",
+    "meaning": "Bag",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["clothingAccessories"],
+    "notes": []
+  },
+  "kasa": {
+    "main": "かさ",
+    "reading": "",
+    "meaning": "Umbrella",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["clothingAccessories"],
+    "notes": []
+  },
+  "booshi": {
+    "main": "ぼうし",
+    "reading": "",
+    "meaning": "Hat",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["clothingAccessories"],
+    "notes": []
+  },
+  "megane": {
+    "main": "めがね",
+    "reading": "",
+    "meaning": "Glasses",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["clothingAccessories"],
+    "notes": []
+  },
+  "kimono": {
+    "main": "着物",
+    "reading": "きもの",
+    "meaning": "",
+    "lesson": 13,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["clothingAccessories"],
+    "notes": []
+  },
+  "mizugi": {
+    "main": "水着",
+    "reading": "みずぎ",
+    "meaning": "",
+    "lesson": 13,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["clothingAccessories"],
+    "notes": []
+  },
+  "nekutaiNecktie": {
+    "main": "ネクタイ",
+    "reading": "",
+    "meaning": "Necktie",
+    "lesson": 14,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["clothingAccessories"],
+    "notes": []
+  },
+  "suhuraaScarf": {
+    "main": "スフラー",
+    "reading": "",
+    "meaning": "Winter scarf",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["clothingAccessories"],
+    "notes": []
+  },
+  "yubiwaRing": {
+    "main": "ゆびわ",
+    "reading": "",
+    "meaning": "Ring",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["clothingAccessories"],
+    "notes": []
+  },
+  "keshouhinCosmetics": {
+    "main": "けしょうひん",
+    "reading": "",
+    "meaning": "Cosmetics",
+    "lesson": null,
+    "category": "noun",
+    "kanjiTags": [],
+    "semanticTags": ["clothingAccessories"],
+    "notes": []
+  },
+  "tsuugakuGoingToSchool": {
+    "main": "通学",
+    "reading": "つうがく",
+    "meaning": "Going to school",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["通ToPass"],
+    "semanticTags": ["abstract"],
+    "notes": []
+  },
+  "tsuukinGoingToWork": {
+    "main": "通勤",
+    "reading": "つうきん",
+    "meaning": "Going to work",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["通ToPass"],
+    "semanticTags": ["abstract"],
+    "notes": []
+  },
+  "chikaUnderground": {
+    "main": "地下",
+    "reading": "ちか",
+    "meaning": "Underground",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["地Ground"],
+    "semanticTags": ["infrastructureTransitPlaces"],
+    "notes": []
+  },
+  "chikatetsuSubway": {
+    "main": "地下てす",
+    "reading": "ちかてつ",
+    "meaning": "Subway",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["地Ground"],
+    "semanticTags": ["transportation"],
+    "notes": []
+  },
+  "natsuSummer": {
+    "main": "夏",
+    "reading": "なつ",
+    "meaning": "Summer",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["夏Summer"],
+    "semanticTags": ["weather"],
+    "notes": []
+  },
+  "natsuyasumiSummerVacation": {
+    "main": "夏休み",
+    "reading": "なつやすみ",
+    "meaning": "Summer vacation",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["夏Summer"],
+    "semanticTags": ["weather"],
+    "notes": []
+  },
+  "sakanaFish": {
+    "main": "魚",
+    "reading": "さかな",
+    "meaning": "Fish",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["魚Fish"],
+    "semanticTags": ["animal"],
+    "notes": []
+  },
+  "kingyoGoldfish": {
+    "main": "金魚",
+    "reading": "きんぎょ",
+    "meaning": "Goldfish",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["魚Fish"],
+    "semanticTags": ["animal"],
+    "notes": []
+  },
+  "ningyoMermaid": {
+    "main": "人魚",
+    "reading": "にんぎょ",
+    "meaning": "Mermaid",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["魚Fish"],
+    "semanticTags": ["person"],
+    "notes": []
+  },
+  "uoichibaFishMarket": {
+    "main": "魚市場",
+    "reading": "うおいちば",
+    "meaning": "Fish market",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["魚Fish"],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+  "oteraTemple": {
+    "main": "お寺",
+    "reading": "おてら",
+    "meaning": "Temple",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["寺Temple"],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+  "toujiToji": {
+    "main": "東寺",
+    "reading": "とうじ",
+    "meaning": "Toji",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["寺Temple"],
+    "semanticTags": ["properPlaceName"],
+    "notes": []
+  },
+  "jiinSacredBuilding": {
+    "main": "寺院",
+    "reading": "じいん",
+    "meaning": "Sacred building",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["寺Temple"],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+  "shiDeath": {
+    "main": "死",
+    "reading": "し",
+    "meaning": "Death",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["死Death"],
+    "semanticTags": ["abstract"],
+    "notes": []
+  },
+  "imiMeaning": {
+    "main": "意味",
+    "reading": "いみ",
+    "meaning": "Meaning",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["意Mind", "味FlavorTaste"],
+    "semanticTags": ["abstract"],
+    "notes": []
+  },
+  "ajiTaste": {
+    "main": "味",
+    "reading": "あじ",
+    "meaning": "Taste",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["味FlavorTaste"],
+    "semanticTags": ["abstract"],
+    "notes": []
+  },
+  "hirobaSquare": {
+    "main": "広場",
+    "reading": [],
+    "meaning": "Square; open space",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["広SpaciousWide"],
+    "semanticTags": ["abstract"],
+    "notes": []
+  },
+  "hiroshimaHiroshima": {
+    "main": "広しま",
+    "reading": "ひりしま",
+    "meaning": "Hiroshima",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["広SpaciousWide"],
+    "semanticTags": ["properCities"],
+    "notes": []
+  },
+  "koukokuAdvertisement": {
+    "main": "広こく",
+    "reading": "こうこく",
+    "meaning": "Advertisement",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["広SpaciousWide"],
+    "semanticTags": ["abstract"],
+    "notes": []
+  },
+  "ashiFootLeg": {
+    "main": "足",
+    "reading": "あし",
+    "meaning": "Foot; leg",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["足FootLeg"],
+    "semanticTags": ["body"],
+    "notes": []
+  },
+  "jitenshaBicycle": {
+    "main": "自転車",
+    "reading": "じてんしゃ",
+    "meaning": "Bicycle",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["転ToRollOver"],
+    "semanticTags": ["transportation"],
+    "notes": []
+  },
+  "shakuchiRentedLand": {
+    "main": "借地",
+    "reading": "しゃくち",
+    "meaning": "Rented land",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["借ToBorrow"],
+    "semanticTags": ["geopoliticalPlaces"],
+    "notes": []
+  },
+  "shakuyaRentedHouse": {
+    "main": "借家",
+    "reading": "しゃくや",
+    "meaning": "Rented house",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["借ToBorrow"],
+    "semanticTags": ["geopoliticalPlaces"],
+    "notes": []
+  },
+  "shakkinDebt": {
+    "main": "借金",
+    "reading": "しゃきん",
+    "meaning": "Debt",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["借ToBorrow"],
+    "semanticTags": ["abstract"],
+    "notes": []
+  },
+  "hashirigakiHastyWriting": {
+    "main": "走り書き",
+    "reading": "はしりがき",
+    "meaning": "Hasty writing",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["走ToRun"],
+    "semanticTags": ["abstract"],
+    "notes": []
+  },
+  "bashoPlace": {
+    "main": "場所",
+    "reading": "ばしょ",
+    "meaning": "Place",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["所Place"],
+    "semanticTags": ["geopoliticalPlaces"],
+    "notes": []
+  },
+  "koujouFactory": {
+    "main": "工場",
+    "reading": "こうじょう",
+    "meaning": "Factory",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["所Place"],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+  "ichibaMarket": {
+    "main": "市場",
+    "reading": "いちば",
+    "meaning": "Market",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["所Place"],
+    "semanticTags": ["institutionsEstablishments"],
+    "notes": []
+  },
+
+  "chuushajouParkingLot": {
+    "main": "駐車場",
+    "reading": "ちゅうしゃじょう",
+    "meaning": "Parking lot",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["所Place"],
+    "semanticTags": ["infrastructureTransitPlaces"],
+    "notes": []
+  },
+  "tatemonoBuilding": {
+    "main": "建物",
+    "reading": "たてもの",
+    "meaning": "Building",
+    "lesson": 15,
+    "category": "noun",
+    "kanjiTags": ["建ToBuild"],
+    "semanticTags": ["geopoliticalPlaces"],
+    "notes": []
   }
+
 }

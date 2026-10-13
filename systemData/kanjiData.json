@@ -5,5 +5,118 @@
     "meaning": "Woman",
     "lesson": null,
     "notes": []
+  },
+
+  "死Death": {
+    "main": "死",
+    "reading": ["し"],
+    "meaning": "Death; to die",
+    "lesson": 15,
+    "notes": []
+  },
+  "意Mind": {
+    "main": "意",
+    "reading": ["い"],
+    "meaning": "Mind; meaning",
+    "lesson": 15,
+    "notes": []
+  },
+  "味FlavorTaste": {
+    "main": "味",
+    "reading": ["み", "あじ"],
+    "meaning": "Flavor; taste",
+    "lesson": 15,
+    "notes": []
+  },
+  "注ToPour": {
+    "main": "注",
+    "reading": ["ちゅう", "そそ"],
+    "meaning": "To pour; to shed",
+    "lesson": 15,
+    "notes": []
+  },
+  "夏Summer": {
+    "main": "夏",
+    "reading": ["か", "なつ"],
+    "meaning": "Summer",
+    "lesson": 15,
+    "notes": []
+  },
+  "魚Fish": {
+    "main": "魚",
+    "reading": ["ぎょ", "さかな", "うお"],
+    "meaning": "Fish",
+    "lesson": 15,
+    "notes": []
+  },
+  "寺Temple": {
+    "main": "寺",
+    "reading": ["じ", "てら", "でら"],
+    "meaning": "Temple",
+    "lesson": 15,
+    "notes": []
+  },
+  "広SpaciousWide": {
+    "main": "広",
+    "reading": ["こう", "ひろ"],
+    "meaning": "Spacious; wide",
+    "lesson": 15,
+    "notes": []
+  },
+  "足FootLeg": {
+    "main": "足",
+    "reading": ["そく", "あし", "た"],
+    "meaning": "Food; leg",
+    "lesson": 15,
+    "notes": []
+  },
+  "転ToRollOver": {
+    "main": "転",
+    "reading": ["てん", "ころ"],
+    "meaning": "To roll over",
+    "lesson": 15,
+    "notes": []
+  },
+  "借ToBorrow": {
+    "main": "借",
+    "reading": ["しゃく", "しゃっ", "か"],
+    "meaning": "To borrow",
+    "lesson": 15,
+    "notes": []
+  },
+  "走ToRun": {
+    "main": "走",
+    "reading": ["そう"],
+    "meaning": "To run",
+    "lesson": 15,
+    "notes": []
+  },
+  "所Place": {
+    "main": "所",
+    "reading": ["じょう", "ば"],
+    "meaning": "Place",
+    "lesson": 15,
+    "notes": []
+  },
+  "建ToBuild": {
+    "main": "建",
+    "reading": ["けん", "たて", "た"],
+    "meaning": "To build",
+    "lesson": 15,
+    "notes": []
+  },
+  "地Ground": {
+    "main": "地",
+    "reading": ["ち", "じ"],
+    "meaning": "Ground",
+    "lesson": 15,
+    "notes": []
+  },
+  "通ToPass": {
+    "main": "通",
+    "reading": ["つう", "とお", "かよ"],
+    "meaning": "To pass; commute",
+    "lesson": 15,
+    "notes": []
   }
 }

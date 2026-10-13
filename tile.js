@@ -1,5 +1,7 @@
 const files = [
     './vocabData/vocab1.json',
+    './vocabData/vocab2.json',
+    './vocabData/vocab3.json'
 ];
 
 const vocabArrays = await Promise.all(files.map(async file => {
@@ -71,7 +73,7 @@ function getKanjiMode() {
 }
 function getActiveParentTag(container) {
     return container.querySelector(
-        'input[name="parent-tag"]:checked'
+        'input[type="radio"][name$="-parent-tag"]:checked'
     )?.value;
 }
 
@@ -178,12 +180,42 @@ function populateVocabTile(results, destination) {
     });
 }
 
+function updateDropdowns(container) {
+    const selectedParent = container.querySelector(
+        'input[type="radio"][name$="-parent-tag"]:checked'
+    )?.value;
+
+    const dropdowns = container.querySelectorAll(".dropdown-content");
+
+    dropdowns.forEach(dropdown => {
+        dropdown.classList.toggle(
+            "active",
+            dropdown.dataset.parent === selectedParent
+        );
+    });
+}
+
+document.querySelectorAll(".container").forEach(container => {
+    const parentRadios = container.querySelectorAll(
+        'input[type="radio"][name$="-parent-tag"]'
+    );
+
+    parentRadios.forEach(radio => {
+        radio.addEventListener("change", () => {
+            updateDropdowns(container);
+        });
+    });
+
+    // Set the correct dropdown when the page first loads
+    updateDropdowns(container);
+});
+
 const kanjiContainer = document.querySelector(
     '.container[data-set="kanji"]'
 );
 
 function updateVocabulary() {
-    const containers = document.querySelectorAll('.main-vocab');
+    const containers = document.querySelectorAll('.vocab');
 
     containers.forEach(container => {
         const category = container.dataset.set;
@@ -225,31 +257,3 @@ document.addEventListener('change', event => {
 });
 
 updateVocabulary();
-
-/*
-const nounContainer = document.querySelector(
-    '.main-vocab[data-set="noun"]'
-);
-
-const kanjiContainer = document.querySelector(
-    '.container[data-set="kanji"]'
-);
-
-const category = nounContainer.dataset.set;
-
-const activeTags = getActiveTags(nounContainer);
-const activeKanji = getActiveKanji(kanjiContainer);
-const mode = getKanjiMode();
-
-const results = filterVocabulary(
-    vocabulary,
-    category,
-    activeTags,
-    activeKanji,
-    mode,
-    tagData
-);
-
-console.log("Mode:", mode);
-console.log("Results:", results);
-*/

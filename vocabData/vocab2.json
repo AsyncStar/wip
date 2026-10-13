@@ -1,0 +1,992 @@
+{
+  "sumuToLive": {
+    "main": "住む",
+    "reading": "すむ",
+    "meaning": "To live",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["routine"],
+    "notes": []
+  },
+  "hatarakuToWork": {
+    "main": "働く",
+    "reading": "はたらく",
+    "meaning": "To work",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["routine"],
+    "notes": []
+  },
+  "neruToSleep": {
+    "main": "ねる",
+    "reading": "",
+    "meaning": "To sleep",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["routine"],
+    "notes": []
+  },
+  "okiruToGetUp": {
+    "main": "起きる",
+    "reading": "おきる",
+    "meaning": "To get up",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["routine"],
+    "notes": []
+  },
+  "taberuToEat": {
+    "main": "食べる",
+    "reading": "た・べる",
+    "meaning": "To eat",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["routine"],
+    "notes": []
+  },
+  "nomuToDrink": {
+    "main": "飲む",
+    "reading": "のむ",
+    "meaning": "To drink",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["routine"],
+    "notes": []
+  },
+  "kaburuToPutOnHat": {
+    "main": "かぶる",
+    "reading": "",
+    "meaning": "To put on (hat/headpiece)",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["gettingDressed"],
+    "notes": []
+  },
+  "hakuToPutOnBelowWaist": {
+    "main": "はく",
+    "reading": "",
+    "meaning": "To put on (items below waist)",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["gettingDressed"],
+    "notes": []
+  },
+  "meganeWoKakeruToPutOnGlasses": {
+    "main": "めがねをかける",
+    "reading": "",
+    "meaning": "To put on (glasses)",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["gettingDressed"],
+    "notes": []
+  },
+  "kiruToPutOnClothes": {
+    "main": "着る",
+    "reading": "きる",
+    "meaning": "To put on (clothes above your waist)",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["gettingDressed"],
+    "notes": []
+  },
+  "soujisuruToClean": {
+    "main": "そうじする",
+    "reading": "",
+    "meaning": "To clean",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["cleaningVerbs"],
+    "notes": []
+  },
+  "shawaaWoAbiruToTakeAShower": {
+    "main": "シャワーおあびる",
+    "reading": "",
+    "meaning": "To take a shower",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["cleaningVerbs"],
+    "notes": []
+  },
+  "ofuroiHairuToTakeABath": {
+    "main": "おふろいはいる",
+    "reading": "",
+    "meaning": "To take a bathe",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["cleaningVerbs"],
+    "notes": []
+  },
+  "arauToWash": {
+    "main": "あらう",
+    "reading": "",
+    "meaning": "To wash",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["cleaningVerbs"],
+    "notes": []
+  },
+  "sentakusuruToDoLaundry": {
+    "main": "せんたくする",
+    "reading": "",
+    "meaning": "To do laundry",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["cleaningVerbs"],
+    "notes": []
+  },
+  "kibunGaWaruiToFeelSick": {
+    "main": "気分が悪い",
+    "reading": "きんぶんがわるい",
+    "meaning": "To feel sick",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["healthVerbs"],
+    "notes": []
+  },
+  "futoruToGainWeight": {
+    "main": "ふとる",
+    "reading": "",
+    "meaning": "To gain weight",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["healthVerbs"],
+    "notes": []
+  },
+  "yaseruToLoseWeight": {
+    "main": "やせる",
+    "reading": "",
+    "meaning": "To lose weight",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["healthVerbs"],
+    "notes": []
+  },
+  "memaiGaSuruToFeelDizzy": {
+    "main": "めまいがする",
+    "reading": "",
+    "meaning": "To feel dizzy",
+    "lesson": 12,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["healthVerbs"],
+    "notes": []
+  },
+  "kusuriOnomuToTakeMedicine": {
+    "main": "くすりをのむ",
+    "reading": "",
+    "meaning": "To take medicine",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["healthVerbs"],
+    "notes": []
+  },
+  "onakaGaSukuToBecomeHungry": {
+    "main": "おなかがすく",
+    "reading": "",
+    "meaning": "To become hungry",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["healthVerbs"],
+    "notes": []
+  },
+  "nodoGaKawakuToBecomeThirsty": {
+    "main": "のどがかわく",
+    "reading": "",
+    "meaning": "To become thirsty",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["healthVerbs"],
+    "notes": []
+  },
+  "tsukareteiruToBeTired": {
+    "main": "つかれている",
+    "reading": "",
+    "meaning": "To be tired",
+    "lesson": 8,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["healthVerbs"],
+    "notes": []
+  },
+  "tsukareruToGetTired": {
+    "main": "つかれる",
+    "reading": "",
+    "meaning": "To get tired",
+    "lesson": 11,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["healthVerbs"],
+    "notes": []
+  },
+  "kuru": {
+    "main": "来る",
+    "reading": "くる",
+    "meaning": "To come",
+    "lesson": "",
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["function"],
+    "notes": []
+  },
+  "suru": {
+    "main": "する",
+    "reading": "",
+    "meaning": "To do",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["function"],
+    "notes": []
+  },
+  "yaru": {
+    "main": "やる",
+    "reading": "",
+    "meaning": "To do",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["function"],
+    "notes": []
+  },
+  "tsukau": {
+    "main": "使う",
+    "reading": "つかう",
+    "meaning": "To use",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["function"],
+    "notes": []
+  },
+  "iru": {
+    "main": "いる",
+    "reading": "",
+    "meaning": "To need",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["function"],
+    "notes": []
+  },
+  "tsurete": {
+    "main": "連れて",
+    "reading": "つれて",
+    "meaning": "To take/bring (someone)",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["function"],
+    "notes": []
+  },
+  "motte": {
+    "main": "持って",
+    "reading": "もって",
+    "meaning": "To take/bring (a thing)",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["function"],
+    "notes": []
+  },
+  "tsukuru": {
+    "main": "作る",
+    "reading": "つくる",
+    "meaning": "To make",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["function"],
+    "notes": []
+  },
+  "miru": {
+    "main": "見る",
+    "reading": "みる",
+    "meaning": "To see; watch; look at",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["function"],
+    "notes": []
+  },
+  "morau": {
+    "main": "もらう",
+    "reading": "",
+    "meaning": "To get (from somebody)",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["function"],
+    "notes": []
+  },
+  "kakaru": {
+    "main": "かかる",
+    "reading": "",
+    "meaning": "To take (amount of time/money)",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["function"],
+    "notes": []
+  },
+  "hajimaru": {
+    "main": "はじまる",
+    "reading": "",
+    "meaning": "To begin",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["function"],
+    "notes": []
+  },
+  "owaru": {
+    "main": "おわる",
+    "reading": "",
+    "meaning": "To end",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["function"],
+    "notes": []
+  },
+  "kikuHearListen": {
+    "main": "聞く",
+    "reading": "きく",
+    "meaning": "To hear; listen; ask",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["communication"],
+    "notes": []
+  },
+  "hanasuSpeak": {
+    "main": "話す",
+    "reading": "はなす",
+    "meaning": "To speak",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["communication"],
+    "notes": []
+  },
+  "iuSay": {
+    "main": "言う",
+    "reading": "いう",
+    "meaning": "To say",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["communication"],
+    "notes": []
+  },
+  "wakaruUnderstand": {
+    "main": "分かる",
+    "reading": "わかる",
+    "meaning": "To understand",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["communication"],
+    "notes": []
+  },
+  "shiruKnow": {
+    "main": "しる",
+    "reading": "",
+    "meaning": "To know",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["communication"],
+    "notes": []
+  },
+  "shoukaisuruIntroduce": {
+    "main": "しょうかいする",
+    "reading": "",
+    "meaning": "To introduce",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["communication"],
+    "notes": []
+  },
+  "usooukuLie": {
+    "main": "うすをうく",
+    "reading": "",
+    "meaning": "To tell a lie",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["communication"],
+    "notes": []
+  },
+  "denwasuruCall": {
+    "main": "電話する",
+    "reading": "でんわする",
+    "meaning": "To call",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["communication"],
+    "notes": []
+  },
+  "motsuToCarryHold": {
+    "main": "持つ",
+    "reading": "もつ",
+    "meaning": "To carry; hold",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["interactionVerbs"],
+    "notes": []
+  },
+  "kaesuToBorrow": {
+    "main": "かえす",
+    "reading": "",
+    "meaning": "To borrow",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["interactionVerbs"],
+    "notes": []
+  },
+  "akeruToOpen": {
+    "main": "あける",
+    "reading": "",
+    "meaning": "To open (something)",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["interactionVerbs"],
+    "notes": []
+  },
+  "shimeruToClose": {
+    "main": "しめる",
+    "reading": "",
+    "meaning": "To close (something)",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["interactionVerbs"],
+    "notes": []
+  },
+  "tsukeruToTurnOn": {
+    "main": "つける",
+    "reading": "",
+    "meaning": "To turn on",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["interactionVerbs"],
+    "notes": []
+  },
+  "kesuToTurnOff": {
+    "main": "けす",
+    "reading": "",
+    "meaning": "To turn off",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["interactionVerbs"],
+    "notes": []
+  },
+  "suteruToThrowAway": {
+    "main": "すてる",
+    "reading": "",
+    "meaning": "To throw away",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["interactionVerbs"],
+    "notes": []
+  },
+  "yomuToRead": {
+    "main": "読む",
+    "reading": "よむ",
+    "meaning": "To read",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["activities"],
+    "notes": []
+  },
+  "kauToBuy": {
+    "main": "買う",
+    "reading": "かう",
+    "meaning": "To buy",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["activities"],
+    "notes": []
+  },
+  "kakuToWrite": {
+    "main": "書く",
+    "reading": "かく",
+    "meaning": "To write",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["activities"],
+    "notes": []
+  },
+  "utauToSing": {
+    "main": "歌う",
+    "reading": "うたう",
+    "meaning": "To sing",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["activities"],
+    "notes": []
+  },
+  "toruToTakeAPicture": {
+    "main": "とる",
+    "reading": "",
+    "meaning": "To take (a picture)",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["activities"],
+    "notes": []
+  },
+  "auToMeetSee": {
+    "main": "会う",
+    "reading": "あう",
+    "meaning": "To meet; see (a person)",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["activities"],
+    "notes": []
+  },
+  "yasumuToRest": {
+    "main": "休む",
+    "reading": "やすむ",
+    "meaning": "To rest; take a break; be absent",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["activities"],
+    "notes": []
+  },
+  "detsutaUToHelp": {
+    "main": "でつたう",
+    "reading": "",
+    "meaning": "To help",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["activities"],
+    "notes": []
+  },
+  "yameruToQuit": {
+    "main": "やめる",
+    "reading": "",
+    "meaning": "To quit",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["activities"],
+    "notes": []
+  },
+  "wasureruToForget": {
+    "main": "わすれる",
+    "reading": "",
+    "meaning": "To forget; to leave behind",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["activities"],
+    "notes": []
+  },
+  "ryourisuruToCook": {
+    "main": "りょうりする",
+    "reading": "",
+    "meaning": "To cook",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["activities"],
+    "notes": []
+  },
+  "kinchousuruToGetNervous": {
+    "main": "きんちょうする",
+    "reading": "",
+    "meaning": "To get nervous",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["feelingVerb"],
+    "notes": []
+  },
+  "shinpaisuruToWorry": {
+    "main": "しんぱいする",
+    "reading": "",
+    "meaning": "To worry",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["feelingVerb"],
+    "notes": []
+  },
+  "kyoumigaAruToBeInterestedIn": {
+    "main": "きょうみがある",
+    "reading": "",
+    "meaning": "To be interested in",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["feelingVerb"],
+    "notes": []
+  },
+  "nakuToCry": {
+    "main": "なく",
+    "reading": "",
+    "meaning": "To cry",
+    "lesson": 12,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["feelingVerb"],
+    "notes": []
+  },
+  "tanoshiminisuruToLookForwardTo": {
+    "main": "楽しみにする",
+    "reading": "たのしみにする",
+    "meaning": "To look forward to",
+    "lesson": 7,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["feelingVerb"],
+    "notes": []
+  },
+  "bikkurisuruToBeSurprised": {
+    "main": "びっくりする",
+    "reading": "",
+    "meaning": "to be suprised",
+    "lesson": 11,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["feelingVerb"],
+    "notes": []
+  },
+  "isoguToHurry": {
+    "main": "急ぐ",
+    "reading": "いそぐ",
+    "meaning": "To hurry",
+    "lesson": 14,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["stateOfBehavior"],
+    "notes": []
+  },
+  "osokunaruToBeLate": {
+    "main": "おそくなる",
+    "reading": "",
+    "meaning": "To be late",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["stateOfBehavior"],
+    "notes": []
+  },
+  "matsuToWait": {
+    "main": "まつ",
+    "reading": "",
+    "meaning": "To wait",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["stateOfBehavior"],
+    "notes": []
+  },
+  "kiruCut": {
+    "main": "切る",
+    "reading": "きる",
+    "meaning": "To cut",
+    "lesson": 14,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["conflictVerbs"],
+    "notes": []
+  },
+  "ataruHit": {
+    "main": "当",
+    "reading": "あたる",
+    "meaning": "To hit",
+    "lesson": 14,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["conflictVerbs"],
+    "notes": []
+  },
+  "kenkaSuruToHaveAFight": {
+    "main": "けんかする",
+    "reading": "",
+    "meaning": "To have a fight; to quarrel",
+    "lesson": 11,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["conflictVerbs"],
+    "notes": []
+  },
+  "iku": {
+    "main": "行く",
+    "reading": "いく",
+    "meaning": "To go",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["movement"],
+    "notes": []
+  },
+  "kaeru": {
+    "main": "帰る",
+    "reading": "かえる",
+    "meaning": "To go home",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["movement"],
+    "notes": []
+  },
+  "dekakeru": {
+    "main": "出かける",
+    "reading": "でかける",
+    "meaning": "To go out",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["movement"],
+    "notes": []
+  },
+  "aru": {
+    "main": "ある",
+    "reading": "ある",
+    "meaning": "To walk",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["movement"],
+    "notes": []
+  },
+  "hashiru": {
+    "main": "走る",
+    "reading": "はしる",
+    "meaning": "To run",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["movement"],
+    "notes": []
+  },
+  "hairu": {
+    "main": "入る",
+    "reading": "はいる",
+    "meaning": "To enter",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["movement"],
+    "notes": []
+  },
+  "deru": {
+    "main": "出る",
+    "reading": "でる",
+    "meaning": "To exit",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["movement"],
+    "notes": []
+  },
+  "noruToRide": {
+    "main": "のる",
+    "reading": "",
+    "meaning": "To ride; board",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["movement"],
+    "notes": []
+  },
+  "suwaru": {
+    "main": "すわる",
+    "reading": "",
+    "meaning": "To sit down",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["movement"],
+    "notes": []
+  },
+  "tatsu": {
+    "main": "立つ",
+    "reading": "たつ",
+    "meaning": "To stand up",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["movement"],
+    "notes": []
+  },
+  "oriru": {
+    "main": "おりる",
+    "reading": "",
+    "meaning": "To get off",
+    "lesson": null,
+    "category": "verb",
+    "kanjiTags": [],
+    "semanticTags": ["movement"],
+    "notes": []
+  },
+  "shinuToDie": {
+    "main": "死ぬ",
+    "reading": "しぬ",
+    "meaning": "To die",
+    "lesson": 15,
+    "category": "verb",
+    "kanjiTags": ["死Death"],
+    "semanticTags": ["abstractVerbs"],
+    "notes": []
+  },
+  "chuuisuruToWatchOut": {
+    "main": "注意する",
+    "reading": "ちゅういする",
+    "meaning": "To watch out",
+    "lesson": 15,
+    "category": "verb",
+    "kanjiTags": ["注ToPour"],
+    "semanticTags": ["function"],
+    "notes": []
+  },
+  "chuumonsuruToOrder": {
+    "main": "注文する",
+    "reading": "ちゅうもんする",
+    "meaning": "To order",
+    "lesson": 15,
+    "category": "verb",
+    "kanjiTags": ["注ToPour"],
+    "semanticTags": ["interactionVerbs"],
+    "notes": []
+  },
+  "sosoguToPour": {
+    "main": "注ぐ",
+    "reading": "そそぐ",
+    "meaning": "To pour",
+    "lesson": 15,
+    "category": "verb",
+    "kanjiTags": ["注ToPour"],
+    "semanticTags": ["interactionVerbs"],
+    "notes": []
+  },
+  "tariruToBeSufficient": {
+    "main": "足りる",
+    "reading": "たりる",
+    "meaning": "To be sufficient",
+    "lesson": 15,
+    "category": "verb",
+    "kanjiTags": ["足FootLeg"],
+    "semanticTags": ["stateOfBehavior"],
+    "notes": []
+  },
+  "untensuruToDrive": {
+    "main": "運転する",
+    "reading": "うんてんする",
+    "meaning": "To drive",
+    "lesson": 15,
+    "category": "verb",
+    "kanjiTags": ["転ToRollOver"],
+    "semanticTags": ["movement"],
+    "notes": []
+  },
+  "korobuToTumble": {
+    "main": "転ぶ",
+    "reading": "ころぶ",
+    "meaning": "To tumble; to fall down",
+    "lesson": 15,
+    "category": "verb",
+    "kanjiTags": ["転ToRollOver"],
+    "semanticTags": ["movement"],
+    "notes": []
+  },
+  "kariruToBorrow": {
+    "main": "借りる",
+    "reading": "かりる",
+    "meaning": "To borrow",
+    "lesson": 15,
+    "category": "verb",
+    "kanjiTags": ["借ToBorrow"],
+    "semanticTags": ["interactionVerbs"],
+    "notes": []
+  },
+  "hashiruToRun": {
+    "main": "走る",
+    "reading": "はしる",
+    "meaning": "To run",
+    "lesson": 15,
+    "category": "verb",
+    "kanjiTags": ["走ToRun"],
+    "semanticTags": ["movement"],
+    "notes": []
+  },
+  "tateruToBuild": {
+    "main": "建てる",
+    "reading": "たてる",
+    "meaning": "To build",
+    "lesson": 15,
+    "category": "verb",
+    "kanjiTags": ["建ToBuild"],
+    "semanticTags": ["interactionVerbs"],
+    "notes": []
+  },
+  "tatsuToBeBuilt": {
+    "main": "建つ",
+    "reading": "たつ",
+    "meaning": "To be built",
+    "lesson": 15,
+    "category": "verb",
+    "kanjiTags": ["建ToBuild"],
+    "semanticTags": ["interactionVerbs"],
+    "notes": []
+  },
+  "tooruToPass": {
+    "main": "通る",
+    "reading": "とおる",
+    "meaning": "To go through; to pass",
+    "lesson": 15,
+    "category": "verb",
+    "kanjiTags": ["通ToPass"],
+    "semanticTags": ["movement"],
+    "notes": []
+  },
+  "kayouToCommute": {
+    "main": "通う",
+    "reading": "かよう",
+    "meaning": "To commute",
+    "lesson": 15,
+    "category": "verb",
+    "kanjiTags": ["通ToPass"],
+    "semanticTags": ["movement"],
+    "notes": []
+  }
+}

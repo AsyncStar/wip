@@ -1,0 +1,453 @@
+{
+  "atsuiHot": {
+    "main": "あつい",
+    "reading": "",
+    "meaning": "Hot (weather; thing)",
+    "lesson": null,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["properties"],
+    "notes": []
+  },
+  "samuiCold": {
+    "main": "さむい",
+    "reading": "",
+    "meaning": "Cold (weather)",
+    "lesson": null,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["properties"],
+    "notes": []
+  },
+  "suzushiiCool": {
+    "main": "すずしい",
+    "reading": "",
+    "meaning": "Cool (weather)",
+    "lesson": null,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["properties"],
+    "notes": []
+  },
+  "atatakashiiWarm": {
+    "main": "あたたかしい",
+    "reading": "もつ",
+    "meaning": "Warm",
+    "lesson": null,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["properties"],
+    "notes": []
+  },
+  "tsumetaiCold": {
+    "main": "つめたい",
+    "reading": "",
+    "meaning": "Cold (things; personality)",
+    "lesson": null,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["properties"],
+    "notes": []
+  },
+  "atarashiiNew": {
+    "main": "新しい",
+    "reading": "あたらしい",
+    "meaning": "New",
+    "lesson": null,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["properties"],
+    "notes": []
+  },
+  "furuiOld": {
+    "main": "古い",
+    "reading": "ふるい",
+    "meaning": "Old (thing)",
+    "lesson": null,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["properties"],
+    "notes": []
+  },
+  "ookiiLarge": {
+    "main": "大",
+    "reading": "おおきい",
+    "meaning": "Large",
+    "lesson": null,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["properties"],
+    "notes": []
+  },
+  "chiisaiSmall": {
+    "main": "小さい",
+    "reading": "ちいさい",
+    "meaning": "Small",
+    "lesson": null,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["properties"],
+    "notes": []
+  },
+  "semaiNarrow": {
+    "main": "せまい",
+    "reading": "",
+    "meaning": "Narrow; not spacious",
+    "lesson": null,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["properties"],
+    "notes": []
+  },
+  "yasuiInexpensive": {
+    "main": "安い",
+    "reading": "やすい",
+    "meaning": "Inexpensive; cheap (thing)",
+    "lesson": null,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["properties"],
+    "notes": []
+  },
+  "takaiExpensive": {
+    "main": "高い",
+    "reading": "たかい",
+    "meaning": "Expensive; high",
+    "lesson": null,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["properties"],
+    "notes": []
+  },
+  "hayai": {
+    "main": "早い",
+    "reading": "はやい",
+    "meaning": "Early; fast",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["description"],
+    "notes": []
+  },
+  "shizukana": {
+    "main": "しずかな",
+    "reading": "",
+    "meaning": "Quiet",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["description"],
+    "notes": []
+  },
+  "nigiyakaa": {
+    "main": "にぎやかあな",
+    "reading": "",
+    "meaning": "Lively",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["description"],
+    "notes": []
+  },
+  "genki": {
+    "main": "元気な",
+    "reading": "げんきな",
+    "meaning": "Healthy; energetic; fine",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["description"],
+    "notes": []
+  },
+  "kireina": {
+    "main": "きれいな",
+    "reading": "",
+    "meaning": "Beautiful",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["description"],
+    "notes": []
+  },
+  "kawaii": {
+    "main": "かわいい",
+    "reading": "",
+    "meaning": "Cute",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["description"],
+    "notes": []
+  },
+  "shinsetsuna": {
+    "main": "しんせつな",
+    "reading": "",
+    "meaning": "Kind",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["description"],
+    "notes": []
+  },
+  "ijiwaruna": {
+    "main": "いじわるな",
+    "reading": "",
+    "meaning": "Mean-spirited",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["description"],
+    "notes": []
+  },
+  "wakai": {
+    "main": "わかい",
+    "reading": "",
+    "meaning": "Young",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["description"],
+    "notes": []
+  },
+  "atamagaii": {
+    "main": "あたまがいい",
+    "reading": "",
+    "meaning": "Bright; smart; clever",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["description"],
+    "notes": []
+  },
+  "osharenaStylish": {
+    "main": "おしゃれな",
+    "reading": "",
+    "meaning": "Fashionable; stylish",
+    "lesson": 14,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["description"],
+    "notes": []
+  },
+  "kechinaStingy": {
+    "main": "けちな",
+    "reading": "",
+    "meaning": "Stingy; cheap",
+    "lesson": 14,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["description"],
+    "notes": []
+  },
+  "taisetsunaPrecious": {
+    "main": "大切な",
+    "reading": "たいせつな",
+    "meaning": "Precious",
+    "lesson": 14,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["description"],
+    "notes": []
+  },
+  "isogashiiBusy": {
+    "main": "忙し",
+    "reading": "いそがし",
+    "meaning": "Busy (people/day)",
+    "lesson": null,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["description"],
+    "notes": []
+  },
+  "himaFree": {
+    "main": "ひま",
+    "reading": "",
+    "meaning": "Not busy; free (time)",
+    "lesson": null,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["description"],
+    "notes": []
+  },
+  "omoshirui": {
+    "main": "おもしるい",
+    "reading": "",
+    "meaning": "Interesting; funny",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["feelingsOpinions"],
+    "notes": []
+  },
+  "tsumaranai": {
+    "main": "つまらない",
+    "reading": "",
+    "meaning": "Boring",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["feelingsOpinions"],
+    "notes": []
+  },
+  "nemui": {
+    "main": "ねむい",
+    "reading": "",
+    "meaning": "Sleepy",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["feelingsOpinions"],
+    "notes": []
+  },
+  "kowai": {
+    "main": "こわい",
+    "reading": "",
+    "meaning": "Frightening",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["feelingsOpinions"],
+    "notes": []
+  },
+  "benrina": {
+    "main": "べんりな",
+    "reading": "",
+    "meaning": "Convenient",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["feelingsOpinions"],
+    "notes": []
+  },
+  "taihenna": {
+    "main": "たいへんな",
+    "reading": "",
+    "meaning": "Tough (situation)",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["feelingsOpinions"],
+    "notes": []
+  },
+  "sabishii": {
+    "main": "さびしいい",
+    "reading": "",
+    "meaning": "Lonely",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["feelingsOpinions"],
+    "notes": []
+  },
+  "kantannaSimple": {
+    "main": "かんたんな",
+    "reading": "",
+    "meaning": "Simple (as in easy)",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["feelingsOpinions"],
+    "notes": []
+  },
+  "rakunaEasy": {
+    "main": "楽な",
+    "reading": "らくな",
+    "meaning": "Easy",
+    "lesson": 11,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["feelingsOpinions"],
+    "notes": []
+  },
+  "muzukashii": {
+    "main": "むずかしい",
+    "reading": "",
+    "meaning": "Difficult",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["feelingsOpinions"],
+    "notes": []
+  },
+  "sutekinaNice": {
+    "main": "すてきな",
+    "reading": "",
+    "meaning": "Nice",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["feelingsOpinions"],
+    "notes": []
+  },
+  "tanoshiiFun": {
+    "main": "楽しい",
+    "reading": "たのしい",
+    "meaning": "Fun",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["feelingsOpinions"],
+    "notes": []
+  },
+  "itaiHurt": {
+    "main": "いたい",
+    "reading": "",
+    "meaning": "Hurt; painful",
+    "lesson": "",
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["feelingsOpinions"],
+    "notes": []
+  },
+  "hoshiiWant": {
+    "main": "ほしい",
+    "reading": "",
+    "meaning": "To want",
+    "lesson": 14,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["feelingsOpinions"],
+    "notes": []
+  },
+  "shinsetsunaKind": {
+    "main": "親切な",
+    "reading": "しんせつな",
+    "meaning": "Kind",
+    "lesson": 14,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["feelingsOpinions"],
+    "notes": []
+  },
+  "shitashiiIntimate": {
+    "main": "親しい",
+    "reading": "したしい",
+    "meaning": "Intimate",
+    "lesson": 14,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["feelingsOpinions"],
+    "notes": []
+  },
+  "majimeSerious": {
+    "main": "まじめ",
+    "reading": "",
+    "meaning": "Serious; sober; diligent",
+    "lesson": 12,
+    "category": "adjective",
+    "kanjiTags": [],
+    "semanticTags": ["feelingsOpinions"],
+    "notes": []
+  },
+  "hiroiWide": {
+    "main": "広い",
+    "reading": "ひろい",
+    "meaning": "Wide; spacious",
+    "lesson": 15,
+    "category": "adjective",
+    "kanjiTags": ["広SpaciousWide"],
+    "semanticTags": ["properties"],
+    "notes": []
+  }
+
+}
