@@ -218,7 +218,7 @@ function updateVocabulary() {
     const containers = document.querySelectorAll('.vocab');
 
     containers.forEach(container => {
-        const category = container.dataset.set;
+        const category = container.dataset.vocab;
         const selectedTags = getActiveTags(container);
         const selectedKanji = getActiveKanji(kanjiContainer);
         const mode = getKanjiMode();
@@ -239,7 +239,7 @@ function updateVocabulary() {
             tagData
         );
 
-        const destination = container.querySelector('.destination');
+        const destination = document.querySelector(`[data-dest="${category}"]`);
 
         populateVocabTile(results, destination);
     });
