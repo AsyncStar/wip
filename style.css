@@ -24,7 +24,56 @@
 body {
     font-family: var(--main-font-family), sans-serif;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
 }
+
+
+#title {
+    margin: 0;
+
+    height: fit-content;
+    display: flex;
+
+    .app {
+        text-wrap: wrap;
+        text-align: center;
+        font-size: 20px;
+        background-color: var(--primary-color);
+        color: var(--dark-accent-color);
+        width: 150px;
+    }
+
+    .topic {
+        font-size: 25px;
+        color: var(--dark-accent-color);
+
+    }
+
+    .inline {
+        margin: 0;
+        display: inline-block;
+    }
+
+    button {
+        background-color: var(--dark-accent-color);
+        width: fit-content;
+        height: fit-content;
+        padding: 0.3em;
+        align-self: flex-end;
+        margin-left: auto;
+
+    }
+    a {
+        text-decoration: none;
+        word-break: auto-phrase;
+        color: white;
+        font-size: 22px;
+    }
+
+}
+
+
 /*  ============= TAGS STYLING ============= */
 
 .dropdown-content {
@@ -32,7 +81,7 @@ body {
 }
 
 .dropdown-content.active {
-    display: inline-block;
+    display: block;
     flex-direction: row;
     overflow: hidden;
     z-index: 100;
@@ -50,7 +99,7 @@ body {
     border-radius: 0.3em;
     margin: 0.2em;
     text-wrap: nowrap;
-    font-size: 20px;
+    font-size: 17px;
     height: fit-content;
     font-weight: 430;
     background-color: #fffefa;
@@ -178,79 +227,248 @@ body {
     font-size: 20px;
 }
 
+
 /**/
-.dual-wrapper {
+.layout {
+    display: flex;
+    flex-direction: column;
+    input[type="radio"] {
+        height: 16px;
+        width: 16px;
+    }
+}
+
+
+.vocab-group {
     display: flex;
     flex-direction: column;
 }
 
-.main-vocab {
-    display: flex;
-    flex-direction: row;
-    border: 1px solid black;
-    width: 100%;
-    height: 150px;
-
-    .tags {
-        display: flex;
-        flex-direction: column;
-        border: 1px solid red;
-        overflow: scroll;
-        width: 40%;
-
-        .upper-tags {
-            flex: 1;
-            overflow: scroll;
-        }
-
-        .dropdowns {
-            flex: 1;
-            overflow: scroll;
-        }
-
-    }
-
-    .destination {
-        border: 1px solid blue;
-        height: 100%;
-        width: 70%;
-        overflow: scroll;
-    }
+.destination {
+    border: 1px solid blue;
+    overflow: scroll;
+    height: 100%;
 }
 
-.med-vocab {
+.dual-dest {
     display: flex;
-    flex-direction: row;
-    border: 1px solid black;
-    width: 100%;
+}
+
+.dest-area {
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    max-width: 50%;
+    min-height: 50%;
+    max-height: 50%;
+}
+
+.tags-side-bar {
+    display: flex;
+    min-height: 100px;
     height: 100px;
+    max-height: 100px;
+}
+
+.tag-container {
+    font-size: 12px;
+    border: 1px solid black;
+    max-height: 100%;
+    min-width: 50%;
+    max-width: 50%;
+    overflow: scroll;
 
     .tags {
         display: flex;
         flex-direction: column;
-        border: 1px solid red;
+    }
+}
+
+.child-tag-area {
+    min-height: 20%;
+}
+
+.child-tag-container {
+    font-size: 16px;
+    overflow-y: scroll;
+    min-width: 100%;
+    max-width: 100%;
+    background-color: var(--primary-color)
+}
+
+.large-size {
+    height: 300px;
+    max-height: 300px;
+}
+
+.medium-size {
+    height: 180px;
+}
+
+.page-mode {
+    font-size: 16px;
+}
+
+.kanji-tags {
+    overflow: scroll;
+    height: 63px;
+}
+
+.kanji-tag {
+    font-size: 22px;
+    width: fit-content;
+    text-wrap: nowrap;
+}
+
+.kanji-drawer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+    border: 1px solid #777;
+    border-radius: 8px;
+    max-height: 400px;
+}
+
+.lesson-tabs {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    flex-shrink: 0;
+}
+
+.lesson-tabs button {
+    flex-shrink: 0;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.lesson-tabs button.active {
+    font-weight: bold;
+    outline: 2px solid currentColor;
+}
+
+.lesson-kanji {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    overflow-y: auto;
+    min-height: 0;
+    padding: 4px;
+}
+
+.kanji-tag {
+    min-width: 48px;
+    min-height: 48px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.kanji-tag.active {
+    outline: 2px solid currentColor;
+    font-weight: bold;
+}
+
+/*  ============= RESPONSIVE ============= */
+
+@media (min-width: 560px) and (max-width: 1920px) and (pointer: fine) {
+
+    .kanji-drawer {
+        background-color: red;
+    }
+
+    .layout {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .vocab-group {
+        display: flex;
+        flex-direction: row;
         overflow: hidden;
-        width: 40%;
-
-        .upper-tags {
-            flex: 1;
-        }
-
-        .dropdowns {
-            flex: 1;
-            overflow: scroll;
-        }
-
     }
 
     .destination {
         border: 1px solid blue;
-        height: 100%;
-        width: 70%;
         overflow: scroll;
+        height: 100%;
+        width: 100%;
+        min-width: 100%;
     }
+
+    .dual-dest {
+        display: flex;
+        width: 100%;
+    }
+
+    .dest-area {
+        display: flex;
+        flex-direction: column;
+        min-width: 50%;
+        width: 50%;
+        max-width: 50%;
+        min-height: 50%;
+        max-height: 50%;
+    }
+
+    .tags-side-bar {
+        display: flex;
+        min-width: 230px;
+        min-height: 100px;
+        height: 100px;
+        max-height: 100px;
+        scrollbar-width: none;          /* Firefox */
+        -ms-overflow-style: none;
+    }
+
+    .tag-container {
+        font-size: 12px;
+        border: 1px solid black;
+        max-height: 100%;
+        min-width: 50%;
+        max-width: 50%;
+        .tags {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .tags {
+        overflow: scroll;
+        scrollbar-width: none;          /* Firefox */
+        -ms-overflow-style: none;
+
+    }
+    .child-tag-area {
+        min-height: 30%;
+    }
+
+    .child-tag-container {
+        font-size: 12px;
+        overflow-y: scroll;
+        min-width: 100%;
+        max-width: 100%;
+        background-color: var(--primary-color)
+    }
+
+
+
+    .large-size, .large-tag-size {
+        min-height: 250px;
+        height: 250px;
+        max-height: 250px;
+    }
+
+    .medium-size, .medium-tag-size {
+        height: 200px;
+        min-height: 200px;
+        max-height: 200px;
+    }
+
+
+
+
 }
 
-.dropdown-content {
-
-}

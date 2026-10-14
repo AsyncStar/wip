@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Vocab</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="tile.js" type="module"></script>
@@ -13,8 +13,15 @@
 
 </head>
 <body>
+<div id="title">
+    <h4 class="app inline">日本語<wbr></wbr>の<wbr></wbr>ノート</h4>
+    <h1 class="topic inline">単語</h1>
+    <button class="link">
+        <a href="grammar.html">文法</a>
+    </button>
+</div>
 
-<div data-set="page-mode">
+<div class="page-mode" data-set="page-mode">
     <div class="tags">
         <label>
             <input type="radio" name="page-mode" value="semantic-only" checked="checked"/>
@@ -27,161 +34,122 @@
             Combined</label>
     </div>
 </div>
-
-<div class="container mini-vocab" data-set="kanji">
-    <div class="tags">
-         <span class="">
-               <label>
-                  <input type="checkbox" value="女Woman"/>
-              女</label>
-          </span>
-        <span class="">
-    <label>
-        <input type="checkbox" value="死Death"/>
-        死
-    </label>
-</span>
-        <span class="">
-    <label>
-        <input type="checkbox" value="意Mind"/>
-        意
-    </label>
-</span>
-        <span class="">
-    <label>
-        <input type="checkbox" value="味FlavorTaste"/>
-        味
-    </label>
-</span>
-        <span class="">
-    <label>
-        <input type="checkbox" value="注ToPour"/>
-        注
-    </label>
-</span>
-        <span class="">
-    <label>
-        <input type="checkbox" value="夏Summer"/>
-        夏
-    </label>
-</span>
-        <span class="">
-    <label>
-        <input type="checkbox" value="魚Fish"/>
-        魚
-    </label>
-</span>
-        <span class="">
-    <label>
-        <input type="checkbox" value="寺Temple"/>
-        寺
-    </label>
-</span>
-        <span class="">
-    <label>
-        <input type="checkbox" value="広SpaciousWide"/>
-        広
-    </label>
-</span>
-        <span class="">
-    <label>
-        <input type="checkbox" value="足FootLeg"/>
-        足
-    </label>
-</span>
-        <span class="">
-    <label>
-        <input type="checkbox" value="転ToRollOver"/>
-        転
-    </label>
-</span>
-        <span class="">
-    <label>
-        <input type="checkbox" value="借ToBorrow"/>
-        借
-    </label>
-</span>
-        <span class="">
-    <label>
-        <input type="checkbox" value="走ToRun"/>
-        走
-    </label>
-</span>
-        <span class="">
-    <label>
-        <input type="checkbox" value="所Place"/>
-        所
-    </label>
-</span>
-        <span class="">
-    <label>
-        <input type="checkbox" value="建ToBuild"/>
-        建
-    </label>
-</span>
-        <span class="">
-    <label>
-        <input type="checkbox" value="地Ground"/>
-        地
-    </label>
-</span>
-        <span class="">
-    <label>
-        <input type="checkbox" value="通ToPass"/>
-        通
-    </label>
-</span>
-
-    </div>
+<!-- Existing selected-kanji area stays outside the drawer -->
+<div id="selected-kanji">
+    <div class="kanji-slot" data-slot="0"></div>
+    <div class="kanji-slot" data-slot="1"></div>
 </div>
 
-<div class="dual-wrapper">
-  <div class="vocab main-vocab" data-vocab="noun">
+<!-- Kanji drawer -->
+<div id="kanji-drawer" class="kanji-drawer">
+    <div id="lesson-tabs" class="lesson-tabs"></div>
 
-      <div class="tags">
-          <div class="upper-tags">
-          <span class="" >
+    <div id="lesson-kanji" class="lesson-kanji"></div>
+</div>
+
+<div class="layout">
+    <div class="vocab-group">
+        <div class="tags-side-bar">
+            <div class="vocab tag-container  large-tag-size" data-vocab="noun">
+                <div class="tags">
+
+          <span class="">
               <label>
                   <input type="radio" name="noun-parent-tag" value="food" checked="checked">
               Food</label>
           </span>
-          <span class="">
+                    <span class="">
                <label>
-                  <input type="radio" name="noun-parent-tag" value="person" />
+                  <input type="radio" name="noun-parent-tag" value="person"/>
               Person</label>
           </span>
-          <span class="">
+                    <span class="">
                <label>
-                  <input type="radio" name="noun-parent-tag" value="commonPlaceNames" />
+                  <input type="radio" name="noun-parent-tag" value="commonPlaceNames"/>
               Common places</label>
           </span>
-              <span class="">
+                    <span class="">
                <label>
-                  <input type="radio" name="noun-parent-tag" value="properPlaceNames" />
+                  <input type="radio" name="noun-parent-tag" value="properPlaces"/>
               Proper places</label>
           </span>
-              <span class="">
+                    <span class="">
                <label>
-                  <input type="radio" name="noun-parent-tag" value="body" />
+                  <input type="radio" name="noun-parent-tag" value="body"/>
               Body</label>
           </span>
-              <span class="">
+                    <span class="">
                <label>
-                  <input type="radio" name="noun-parent-tag" value="weather" />
+                  <input type="radio" name="noun-parent-tag" value="weather"/>
               Weather</label>
           </span>
-              <span class="">
+                    <span class="">
                <label>
-                  <input type="radio" name="noun-parent-tag" value="clothingAccessories" />
+                  <input type="radio" name="noun-parent-tag" value="clothingAccessories"/>
               Clothing</label>
           </span>
-              <span class="">
+                    <span class="">
                <label>
-                  <input type="radio" name="noun-parent-tag" value="householdFurniture" />
+                  <input type="radio" name="noun-parent-tag" value="householdFurniture"/>
               Household & Furniture</label>
           </span>
-          </div>
-          <div class="dropdowns">
+
+                </div>
+            </div>
+            <div class="vocab tag-container large-tag-size" data-vocab="verb">
+                <div class="tags">
+
+              <span class="">
+              <label>
+                  <input type="radio" name="verb-parent-tag" value="function" checked="checked">
+              Function</label>
+          </span>
+                    <span class="">
+              <label>
+                  <input type="radio" name="verb-parent-tag" value="communication"/>
+              Communication</label>
+          </span>
+                    <span class="">
+              <label>
+                  <input type="radio" name="verb-parent-tag" value="feelingVerb">
+              Feeling</label>
+          </span>
+                    <span class="">
+              <label>
+                  <input type="radio" name="verb-parent-tag" value="dailyLife">
+              Daily Life</label>
+          </span>
+                    <span class="">
+              <label>
+                  <input type="radio" name="verb-parent-tag" value="conflictVerbs"/>
+              Conflict</label>
+          </span>
+                    <span class="">
+              <label>
+                  <input type="radio" name="verb-parent-tag" value="stateOfBehavior"/>
+              State of Behavior</label>
+          </span>
+                    <span class="">
+              <label>
+                  <input type="radio" name="verb-parent-tag" value="activities"/>
+              Activities</label>
+          </span>
+                    <span class="">
+              <label>
+                  <input type="radio" name="verb-parent-tag" value="interactionVerbs"/>
+              Interacting with objects</label>
+          </span>
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="dual-dest">
+            <div class="dest-area large-size">
+                <div class="vocab child-tag-container child-tag-area " data-child-area="noun">
+                    <div class="dropdowns">
               <span class="dropdown-content" data-parent="food">
                    <label>
                   <input type="checkbox" value="fruits" checked="checked"/>
@@ -194,7 +162,7 @@
                        Sweets
               </label>
           </span>
-          <span class="dropdown-content" data-parent="commonPlaceNames">
+                        <span class="dropdown-content" data-parent="commonPlaceNames">
                    <label>
                   <input type="checkbox" value="institutionsEstablishments" checked="checked"/>
               Institutions & Establishments</label>
@@ -221,90 +189,43 @@
 
 
           </span>
-              <span class="dropdown-content" data-parent="properPlaceNames">
+                        <span class="dropdown-content" data-parent="properPlaces">
                    <label>
-                  <input type="checkbox" value="institutionsEstablishments" checked="checked"/>
-              Institutions & Establishments</label>
+                  <input type="checkbox" value="country" checked="checked"/>
+              Country</label>
                    <label>
-                  <input type="checkbox" value="infrastructureTransitPlaces"/>
-              Infrastructure & Transit</label>
+                  <input type="checkbox" value="americanCities"/>
+              Cities (America)</label>
                    <label>
-                  <input type="checkbox" value="subPlaces"/>
-                       Sub-places
+                  <input type="checkbox" value="japaneseCities"/>
+                       Cities (Japan)
               </label>
                    <label>
-                  <input type="checkbox" value="publicAmenitiesPlaces"/>
-                       Public Amenities
+                  <input type="checkbox" value="internationalCities"/>
+                       Cities (International)
               </label>
                     <label>
-                  <input type="checkbox" value="geographicalPlaces"/>
-                       Geopolitical
+                  <input type="checkbox" value="placesOfWorship"/>
+                       Places Of Worship
               </label>
                    <label>
-                  <input type="checkbox" value="naturalPlaces"/>
-                       Nature
+                  <input type="checkbox" value="restaurants"/>
+                       Restaurants
               </label>
 
 
 
           </span>
-          </div>
-
-      </div>
-  </div>
-
-    <div class="destination" data-dest="noun"></div>
-
-
-  <div class="vocab main-vocab" data-vocab="verb">
-      <div class="tags">
-          <div class="upper-tags">
-              <span class="" >
-              <label>
-                  <input type="radio" name="verb-parent-tag" value="function" checked="checked">
-              Function</label>
-          </span>
-              <span class="" >
-              <label>
-                  <input type="radio" name="verb-parent-tag" value="communication"/>
-              Communication</label>
-          </span>
-              <span class="" >
-              <label>
-                  <input type="radio" name="verb-parent-tag" value="feelingVerb">
-              Feeling</label>
-          </span>
-              <span class="" >
-              <label>
-                  <input type="radio" name="verb-parent-tag" value="dailyLife">
-              Daily Life</label>
-          </span>
-              <span class="" >
-              <label>
-                  <input type="radio" name="verb-parent-tag" value="conflictVerbs"/>
-              Conflict</label>
-          </span>
-              <span class="" >
-              <label>
-                  <input type="radio" name="verb-parent-tag" value="stateOfBehavior"/>
-              State of Behavior</label>
-          </span>
-              <span class="" >
-              <label>
-                  <input type="radio" name="verb-parent-tag" value="activities"/>
-              Activities</label>
-          </span>
-              <span class="" >
-              <label>
-                  <input type="radio" name="verb-parent-tag" value="interactionVerbs"/>
-              Interacting with objects</label>
-          </span>
-
-          </div>
-          <div class="dropdowns">
+                    </div>
+                </div>
+                <div class="large-size destination" data-dest="noun"></div>
+            </div>
+            <div class="dest-area large-size">
+                <div class="vocab child-tag-container child-tag-area" data-child-area="verb">
+                    <div class="dropdowns">
               <span class="dropdown-content" data-parent="dailyLife">
                    <label>
-                  <input type="checkbox" value="routine" checked="checked"/>
+                  <input type="checkbox" value="dailyRoutine" checked="checked"/>
               Routine</label>
                    <label>
                   <input type="checkbox" value="gettingDressed"/>
@@ -318,55 +239,87 @@
                        Health
               </label>
           </span>
-          </div>
+                    </div>
+                </div>
+                <div class="large-size destination" data-dest="verb"></div>
+            </div>
+        </div>
 
-      </div>
-
-  </div>
-
-</div>
-
-<div class="destination" data-dest="verb"></div>
-
-<div class="dual-wrapper" data-set="">
-  <div class="vocab med-vocab" data-vocab="adjective">
-      <div class="tags">
-          <div class="upper-tags">
-               <span class="" >
+    </div>
+    <div class="vocab-group">
+        <div class="tags-side-bar">
+            <div class="vocab tag-container medium-tag-size" data-vocab="adjective">
+                <div class="tags">
+               <span class="">
               <label>
                   <input type="radio" name="adjective-parent-tag" value="feelingsOpinions" checked="checked">
               Feelings & Opinions</label>
           </span>
-              <span class="" >
+                        <span class="">
               <label>
                   <input type="radio" name="adjective-parent-tag" value="description">
               Description</label>
           </span>
-              <span class="" >
+                        <span class="">
               <label>
                   <input type="radio" name="adjective-parent-tag" value="properties">
               Properties</label>
           </span>
-          </div>
-      </div>
-  </div>
-    <div class="destination" data-dest="adjective"></div>
-  <div class="vocab med-vocab" data-vocab="adverb">
-      <div class="tags">
-          <div class="upper-tags"></div>
-      </div>
-  </div>
-    <div class="destination" data-dest="adverb"></div>
+                </div>
+            </div>
+            <div class="vocab tag-container medium-tag-size" data-vocab="adverb">
+                <div class="tags">
+
+                     <span class="">
+              <label>
+                  <input type="radio" name="adverbs-parent-tags" value="mannerAdverbs">
+              Manner</label>
+          </span>
+                        <span class="">
+              <label>
+                  <input type="radio" name="adverb-parent-tag" value="frequencyAdverbs"/>
+              Frequency</label>
+          </span>
+                        <span class="">
+              <label>
+                  <input type="radio" name="adverb-parent-tag" value="degreeAdverbs"/>
+              Degree</label>
+          </span>
+                        <span class="">
+              <label>
+                  <input type="radio" name="adverb-parent-tag" value="timeAdverbs"/>
+              Time</label>
+          </span>
+                        <span class="">
+              <label>
+                  <input type="radio" name="adverb-parent-tag" value="otherAdverbs"/>
+              Other</label>
+          </span>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="dual-dest">
+            <div class="dest-area medium-size">
+            <div class="medium-size destination" data-dest="adjective"></div>
+            </div>
+            <div class="dest-area medium-size">
+            <div class="medium-size destination" data-dest="adverb"></div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<dialog id="tile-modal">
-    <div class="modal-content">
-        <div class="modal-header"></div>
-        <div class="modal-reading"></div>
-        <div class="modal-meaning"></div>
-        <div class="modal-notes"></div>
-    </div>
-</dialog>
+    <dialog id="tile-modal">
+        <div class="modal-content">
+            <div class="modal-header"></div>
+            <div class="modal-reading"></div>
+            <div class="modal-meaning"></div>
+            <div class="modal-notes"></div>
+        </div>
+    </dialog>
+
 
 </body>
 </html>

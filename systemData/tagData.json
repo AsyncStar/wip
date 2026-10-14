@@ -1,5 +1,13 @@
 {
   "noun": {
+    "properPlaces": {
+      "restaurants": {},
+      "placesOfWorship": {},
+      "country": {},
+      "americanCities": {},
+      "japaneseCities": {},
+      "internationalCities": {}
+    },
     "food": {
       "fruits": {},
       "vegetables": {},
@@ -15,11 +23,7 @@
       "geopoliticalPlaces": {},
       "naturalPlaces": {}
     },
-    "properPlaceNames": {
-      "properPlaceName": {},
-      "country": {},
-      "properCities": {}
-    },
+
     "body": {},
     "weather": {
     },
@@ -34,7 +38,7 @@
     "movement": {},
     "feelingVerb": {},
     "dailyLife": {
-      "routine": {},
+      "dailyRoutine": {},
       "gettingDressed" : {},
       "cleaningVerbs": {},
       "healthVerbs": {}
